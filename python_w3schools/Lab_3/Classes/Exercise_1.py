@@ -5,7 +5,7 @@ class text:
     def getString():
         return text(input())
     def printString(self):
-        print(self.string)
+        print(self.string.upper())
 
 def main():
     test = text.getString()
