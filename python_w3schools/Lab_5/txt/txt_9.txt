@@ -1,0 +1,4 @@
+minNum
+maxSum
+powerOff
+testOfWorld
