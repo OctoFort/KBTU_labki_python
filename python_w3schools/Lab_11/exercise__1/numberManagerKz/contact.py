@@ -33,7 +33,7 @@ class Contact:
         return self
 
     def destroy(self):
-        self.db.execute(f"DELETE FROM {self.db.table} WHERE id =%s", (str(self.id)))
+        self.db.execute(f"DELETE FROM {self.db.table} WHERE id =%s", (f"{self.id}",))
         return self
 
     @classmethod
